@@ -48,4 +48,7 @@ Ficam em `dados/config.json` (criado na primeira vez que o app abre). Fecha o ap
   fotos de expressão conhecida, mas expressão é coisa difícil: cara séria às vezes sai "Desprezo" ou "Raiva",
   e surpresa às vezes sai "Medo".
 
-Licenças: o YOLO é AGPL-3.0, o YuNet MIT e o HSEmotion Apache-2.0.
+## Licença
+
+O Câmera IA é AGPL-3.0 (arquivo `LICENSE`), porque usa o Ultralytics, que é AGPL-3.0. Os modelos baixados
+têm as licenças deles: YOLO26 AGPL-3.0, YuNet MIT e HSEmotion Apache-2.0.
