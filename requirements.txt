@@ -1,0 +1,13 @@
+# Versões fixas de propósito: o Smart App Control do Windows barra versão nova de pacote com parte nativa.
+# torch 2.8.0 / scipy 1.15.3 são as que passam no ComfyUI; opencv 4.12 em vez do 5.0 (o 5 é novo demais);
+# o onnxruntime-gpu é assinado pela Microsoft.
+# Só atualizar depois de testar o import no Windows.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+ultralytics==8.4.182
+opencv-python==4.12.0.88
+numpy==2.2.6
+scipy==1.15.3
+pillow==12.3.0
+onnxruntime-gpu==1.22.0
